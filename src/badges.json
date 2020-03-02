@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "alien",
+    "image": "img/alien.png"
+  },
+  {
+    "id": 2,
+    "name": "blueMonster",
+    "image": "img/blueMonster.png"
+  },
+  {
+    "id": 3,
+    "name": "dodge",
+    "image": "img/dodge.png"
+  },
+  {
+    "id": 4,
+    "name": "fox",
+    "image": "img/fox.png"
+  },
+  {
+    "id": 5,
+    "name": "heart",
+    "image": "img/heart.png"
+  },
+  {
+    "id": 6,
+    "name": "pinkMonster",
+    "image": "img/pinkMonster.png"
+  },
+  {
+    "id": 7,
+    "name": "rainbowCloud",
+    "image": "img/rainbowCloud.png"
+  },
+  {
+    "id": 8,
+    "name": "unicornCat",
+    "image": "img/unicornCat.png"
+  }
+]
