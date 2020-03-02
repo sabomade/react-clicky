@@ -3,3 +3,6 @@
   background: transparent;
   width: 100px;
 }
+.card:hover {
+  width: 110px;
+}
