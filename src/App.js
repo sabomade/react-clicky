@@ -15,10 +15,27 @@ class App extends Component {
     info: "Click on an image to begin!"
   };
 
+  shuffle = arr => {
+    let arr2 = [...arr];
+    let i = arr2.length;
+    let temp;
+    let index;
+    while (i > 0) {
+      index = Math.floor(Math.random() * i);
+      i--;
+      temp = arr2[i];
+      arr2[i] = arr2[index];
+      arr2[index] = temp;
+    }
+    return arr2;
+  };
+
   handleClick = id => {
-    //check if clickedBadge was already clicked
+    //check if item was already clicked
     const checkArray = this.state.clicked.filter(click => click.id === id);
+    //if item was not already clicked
     if (checkArray.length === 0) {
+      //change topScore when equal to socre
       if (this.state.topScore === this.state.count) {
         this.setState({ topScore: this.state.topScore + 1 });
       }
@@ -27,12 +44,12 @@ class App extends Component {
         count: this.state.count + 1,
         info: "Great Job! You guessed right!"
       });
-      //add clicked item to clicked state array
+      //add item to this.state.clicked array
       this.setState(state => {
         const clicked = state.clicked.push(this.state.badges[id - 1]);
-        return clicked;
+        // return clicked;
       });
-      console.log("items that have been clicked: ", this.state.clicked);
+      // console.log("items that have been clicked: ", this.state.clicked);
     } else {
       this.setState({
         info: "Wrong! Try again.",
@@ -42,18 +59,9 @@ class App extends Component {
     }
 
     //reshuffle cards in DOM
-    // let ctr = this.state.badges.length;
-    // let temp;
-    // let index;
-    // const badges = this.state.badges;
-    // while (ctr > 0) {
-    //   index = Math.floor(Math.random() * ctr);
-    //   ctr--;
-    //   temp = badges[ctr];
-    //   badges[ctr] = badges[index];
-    //   badges[index] = temp;
-    // }
-    // this.setState(badges);
+    const stickers = this.state.badges;
+    const shuffledBadges = this.shuffle(stickers);
+    this.setState({ badges: shuffledBadges });
   };
 
   render() {

@@ -1,5 +1,5 @@
 .jumbotron {
-  background: lightgoldenrodyellow;
+  background: url(/img/halftone-yellow.png);
   background-repeat: repeat;
   margin-top: 60px;
 }
