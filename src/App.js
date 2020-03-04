@@ -31,8 +31,10 @@ class App extends Component {
   };
 
   handleClick = id => {
+    console.log("this.state.clicked", this.state.clicked);
     //check if item was already clicked
     const checkArray = this.state.clicked.filter(click => click.id === id);
+    console.log("checkArray", checkArray);
     //if item was not already clicked
     if (checkArray.length === 0) {
       //change topScore when equal to socre
@@ -60,7 +62,10 @@ class App extends Component {
 
     //reshuffle cards in DOM
     const stickers = this.state.badges;
+    console.log("stickers", stickers);
     const shuffledBadges = this.shuffle(stickers);
+    console.log("shuffledBadges", shuffledBadges);
+    console.log("===============");
     this.setState({ badges: shuffledBadges });
   };
 
