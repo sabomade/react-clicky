@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-clicky/static/css/main.bc26400c.chunk.css",
+    "main.css": "/react-clicky/static/css/main.72537b1e.chunk.css",
     "main.js": "/react-clicky/static/js/main.b07363a0.chunk.js",
     "main.js.map": "/react-clicky/static/js/main.b07363a0.chunk.js.map",
     "runtime-main.js": "/react-clicky/static/js/runtime-main.ef7dcd2c.js",
@@ -8,15 +8,16 @@
     "static/js/2.81fde50c.chunk.js": "/react-clicky/static/js/2.81fde50c.chunk.js",
     "static/js/2.81fde50c.chunk.js.map": "/react-clicky/static/js/2.81fde50c.chunk.js.map",
     "index.html": "/react-clicky/index.html",
-    "precache-manifest.e2e38a00591e4a9744992051c64d5638.js": "/react-clicky/precache-manifest.e2e38a00591e4a9744992051c64d5638.js",
+    "precache-manifest.654c60624f9316cc7bb67b3ea0979376.js": "/react-clicky/precache-manifest.654c60624f9316cc7bb67b3ea0979376.js",
     "service-worker.js": "/react-clicky/service-worker.js",
-    "static/css/main.bc26400c.chunk.css.map": "/react-clicky/static/css/main.bc26400c.chunk.css.map",
-    "static/js/2.81fde50c.chunk.js.LICENSE.txt": "/react-clicky/static/js/2.81fde50c.chunk.js.LICENSE.txt"
+    "static/css/main.72537b1e.chunk.css.map": "/react-clicky/static/css/main.72537b1e.chunk.css.map",
+    "static/js/2.81fde50c.chunk.js.LICENSE.txt": "/react-clicky/static/js/2.81fde50c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/react-clicky/static/media/halftoneyellow.ce75830e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ef7dcd2c.js",
     "static/js/2.81fde50c.chunk.js",
-    "static/css/main.bc26400c.chunk.css",
+    "static/css/main.72537b1e.chunk.css",
     "static/js/main.b07363a0.chunk.js"
   ]
 }
