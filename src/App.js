@@ -33,7 +33,7 @@ class App extends Component {
   handleClick = id => {
     console.log("this.state.clicked", this.state.clicked);
     //check if item was already clicked
-    const checkArray = this.state.clicked.filter(click => click.id === id);
+    const checkArray = this.state.clicked.filter(click => click === id);
     console.log("checkArray", checkArray);
     //if item was not already clicked
     if (checkArray.length === 0) {
@@ -48,7 +48,7 @@ class App extends Component {
       });
       //add item to this.state.clicked array
       this.setState(state => {
-        const clicked = state.clicked.push(this.state.badges[id - 1]);
+        const clicked = state.clicked.push(id);
         // return clicked;
       });
       // console.log("items that have been clicked: ", this.state.clicked);
