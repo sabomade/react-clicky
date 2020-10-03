@@ -1,8 +1,8 @@
 # Clicky Game
 
-This is a memory game created in React.
+This is a memory game created in React. You can play this game here: ![Play Now](https://sabomade.github.io/react-clicky/)
 
-![Image of App](public/img/#)
+![Image of App](public/clickyGame.png)
 
 ### How to Play
 
@@ -12,7 +12,7 @@ Can you remember which images you've clicked?
 
 #### Game in Action
 
-![Playing the Game](public/img/#)
+![Playing the Game](public/playClickyGame.gif)
 
 ### Available Scripts
 
